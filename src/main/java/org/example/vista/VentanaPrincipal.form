@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.example.vista.VentanaPrincipal">
+  <grid id="27dc6" binding="VentanaPrincipal" layout-manager="GridLayoutManager" row-count="6" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="560" height="420"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="titulo" class="javax.swing.JLabel" binding="lblTitulo">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="24" style="1"/>
+          <text value="SpeedFast"/>
+        </properties>
+      </component>
+      <component id="subtitulo" class="javax.swing.JLabel" binding="lblSubtitulo">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Sistema de gestión de pedidos y entregas"/>
+        </properties>
+      </component>
+      <component id="registrar" class="javax.swing.JButton" binding="btnRegistrarPedido">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="320" height="45"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Registrar pedido"/>
+        </properties>
+      </component>
+      <component id="registrarRepartidor" class="javax.swing.JButton" binding="btnRegistrarRepartidor">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="320" height="45"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Registrar repartidor"/>
+        </properties>
+      </component>
+      <component id="listar" class="javax.swing.JButton" binding="btnListarPedidos">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="320" height="45"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Listar pedidos"/>
+        </properties>
+      </component>
+      <component id="asignar" class="javax.swing.JButton" binding="btnAsignarEntrega">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="320" height="45"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Asignar repartidor / Iniciar entrega"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
